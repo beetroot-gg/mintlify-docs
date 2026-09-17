@@ -9,9 +9,37 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "pages": [
-      "index",
-      ""
+    "tabs": [
+      {
+        "tab": "Rules",
+        "groups": [
+          {
+            "group": "Introduction",
+            "pages": [
+              "introduction",
+              "general-information"
+            ]
+          },
+          {
+            "group": "Minecraft Rules",
+            "pages": [
+              "minecraft/chat",
+              "minecraft/gameplay",
+              "minecraft/donors",
+              "minecraft/scams-and-trading"
+            ]
+          },
+          {
+            "group": "Other Rules",
+            "pages": [
+              "discord-rules",
+              "staff-rules",
+              "tos",
+              "privacy"
+            ]
+          }
+        ]
+      }
     ]
   },
   "logo": {
@@ -41,13 +69,6 @@
       "cursor",
       "vscode"
     ]
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
   },
   "description": "The official Beetroot Minecraft server rules",
   "appearance": {
